@@ -7,6 +7,7 @@ URL: http://templates.arcsin.se
 
 Feel free to use and modify but please provide credits.
 #############################################################*/
+@import url(https://tauhu.tw/tauhu-oo.css);
 
 /* standard elements */
 html {min-height: 150%;}
@@ -26,7 +27,7 @@ body {
 	font: normal 95% Tahoma,sans-serif;
 }
 
-p,code,ul {padding-bottom: 1.2em;}
+p,code,ul {padding-bottom: 1.2em; font-family: tauhu-oo, PingFangTC-Regular, "Microsoft JhengHei", sans-serif;}
 
 li {list-style: none;}
 
