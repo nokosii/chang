@@ -26,9 +26,9 @@
 
                     var html = '<table border=1 width=100%>';//
 
-                    for (var i = 0; i < obj.length-2; i++) {//
+                    for (var i = 0; i < obj.length; i++) {//
                         html += '<tr>';//
-                        for (j = 0; j < obj[i].data.length; j++) {
+                        for (j = 0; j < obj[i].data.length-2; j++) {
                             html += '<td>' + obj[i].data[j] + '</td>';
                         }
                         html += '</tr>';
